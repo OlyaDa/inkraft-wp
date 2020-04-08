@@ -227,13 +227,13 @@ $(document).ready(function(){
 
 //скрипт, чтобы фиксировалась высота слайдера при табуляции
 
- $(window).load(function () {
-   $('.work-slider').on('setPosition', function () {
-     $(this).find('.slick-slide').height('auto');
-     var slickTrack = $(this).find('.slick-track');
-     var slickTrackHeight = $(slickTrack).height();
-     $(this).find('.slick-slide').css('height', slickTrackHeight + 'px');
-   });
-  })
+// $(window).load(function () {
+//     $('.work-slider').on('setPosition', function () {
+//         $(this).find('.slick-slide').height('auto');
+//         var slickTrack = $(this).find('.slick-track');
+//         var slickTrackHeight = $(slickTrack).height();
+//         $(this).find('.slick-slide').css('height', slickTrackHeight + 'px');
+//     });
+// })
 
 

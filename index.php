@@ -922,7 +922,7 @@
 
                                 <div class="button download">
                                     <a href="#popup" class="btn popup-link"
-                                       onclick="setNameScroll('Скачать каталог, Наша продукция');">
+                                       onclick="setNameScroll(' Скачать каталог, Наша продукция', 'true');">
                                         Скачать <br> каталог
                                     </a>
                                 </div>
